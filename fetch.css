@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+button{
+    /* font-family: "Poppins", sans-serif; */
+}
+
+body{
+    background-position: center;
+    background-image: url(bg.jpg);
+    height: 100vh;
+    color: white;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.search_button{
+    color: white;
+    background: rgb(255, 174, 0);
+    border: 1px solid rgb(255, 174, 0);
+    color: white;
+    /* margin: 20px 0px; */
+    padding: 15px 0px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+input{
+    border: 1px solid white;
+    color: white;
+    /* margin-top: 20px; */
+    margin-left: 70px;
+    margin-right: 20px;
+    padding: 15px 5px;
+    width: 250px;
+    border-radius: 10px;
+    background: none;
+
+}
+
+.card {
+    width: 600px;
+    margin: 70px auto;
+    padding: 20px ;
+    /* border: 1px solid rgb(33, 42, 100); */
+    background-color: #1E293B;
+    border-radius: 10px;
+}
+
+
+.movie__description{
+    color: white;
+    display: flex;
+    background-color: #1E293B;
+    justify-content: space-between;
+}
+
+.right_movie{
+    max-width: 400px;
+    width: 100%;
+}
+
+.right_movie h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.right_movie img{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+.reyting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.movie{
+    background:none;
+    margin-top: 20px;
+}
+
+.btn_movie{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.btn_movie button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    gap: 10px;
+}
+
+.right_movie i{
+    color: gold
+}
+
+.alt_hisse{
+    width: 100%;
+   /* padding: 20px; */
+}
+.alt_hisse h4{
+    padding-top: 30px;
+    font-size: 30px;
+}
