@@ -9,7 +9,7 @@ searchButton.addEventListener('click',()=>{
     console.log(searchBtn.value.trim());
     // trim inputda de olan boslugu itizdirir
     // const apiKey = "f34d7d53"
-    const apiUrl = "http://www.omdbapi.com/?apikey=f34d7d53" + "&t=" + inpValue
+    const apiUrl = "https://www.omdbapi.com/?apikey=f34d7d53" + "&t=" + inpValue
 
     fetch(apiUrl)
     .then((resp) => resp.json())
